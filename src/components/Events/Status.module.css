@@ -1,0 +1,19 @@
+.status{
+  padding: 22px 150px 22px 22px;
+  display: flex;
+  width: max-content;
+}
+.wrapper{
+  margin-left: 24px;
+}
+.statusinfo{
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: var(--text-second)
+}
+.statusText{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text-green);
+}

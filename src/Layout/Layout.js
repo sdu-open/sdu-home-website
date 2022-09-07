@@ -5,14 +5,16 @@ import Sidebar from './Sidebar/Sidebar'
 import Widgets from './Widgets/Widgets'
 const Layout = ({children}) => {
   return (
-    <div className={styles.layout}>
-      <Header className={styles.header} />
-      <Sidebar className={styles.sidebar} />
-      <Widgets className={styles.widgets} />
+    <>
+      <div className={styles.layout}>
+        <Sidebar className={styles.sidebar} />
+        <Header className={styles.header} />
+        <Widgets className={styles.widgets} />
+      </div>
       <main className={styles.main}>
         {children}
       </main>
-    </div>
+    </>
   )
 }
 

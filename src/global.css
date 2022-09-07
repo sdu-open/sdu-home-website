@@ -1,0 +1,42 @@
+:root{
+  --card-bg: #fff;
+  --text-main: #000;
+  --text-second: #8A8585;
+  --nav-bg: #0C0F2C;
+  --nav-item-text: #fff;
+  --nav-item-bg: #351F72;
+  --nav-item-bg-light: #482A9D;
+  --main-bg: #F5F4FF;
+  --text-green: #00AD45;
+}
+*,
+*::before,
+*::after,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+button{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: inherit;
+}
+button{
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+body{
+  min-width: 320px;
+  line-height: 1.23;
+  overflow-x: hidden;
+  color: var(--text-main);
+  background: var(--main-bg);
+  position: relative;
+  font-family: Montserrat, sans-serif;
+}

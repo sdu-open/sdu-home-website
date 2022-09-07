@@ -1,0 +1,43 @@
+.card{
+  position: relative;
+  padding: 31px 52px 13px 92px;
+  width: max-content;
+}
+.img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 80px;
+}
+.cardWrapper{
+  position: relative;
+  z-index: 2;
+}
+.title{
+  margin-left: 52px;
+  margin-bottom: 22px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.info{
+  display: flex;
+  align-items: flex-end;
+  line-height: 1;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.infoCount{
+  font-size: 60px;
+  font-weight: 300;
+  margin-right: 32px;
+}
+.infoText{
+  font-size: 24px;
+}
+.link{
+  display: inline-block;
+  margin-left: 28px;
+  text-decoration: none;
+  margin-top: 10px;
+}

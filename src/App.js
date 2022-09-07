@@ -1,6 +1,8 @@
 
 import Layout from './Layout/Layout';
 import './normalize.css';
+import './fonts.css';
+import './global.css';
 import Dashboard from './pages/Dashboard/Dashboard'
 import { Route, Routes } from 'react-router-dom';
 import Events from './pages/Events/Events';
