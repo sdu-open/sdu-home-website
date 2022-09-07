@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Layout from './Layout/Layout';
+import './normalize.css';
+import Dashboard from './pages/Dashboard/Dashboard'
+import { Route, Routes } from 'react-router-dom';
+import Events from './pages/Events/Events';
+import Sport from './pages/Sport/Sport';
+import Marketplace from './pages/Marketplace/Marketplace';
+import LostAndFound from './pages/LostAndFound/LostAndFound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/events" element={<Events />} />
+        <Route path="/sport" element={<Sport />} />
+        <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="/lostandfound" element={<LostAndFound />} />
+        <Route path="/" exact element={<Dashboard />} />
+      </Routes>
+    </Layout>
   );
 }
 

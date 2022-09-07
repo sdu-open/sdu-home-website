@@ -1,0 +1,14 @@
+.layout{
+  display: grid;
+  grid-template-columns: [start] 430px [headerstart] 1fr [widgetsstart] 350px [end];
+  grid-auto-flow: dense
+}
+.header{
+  grid-column: headerstart / end;
+}
+.widgets{
+  grid-column: widgetsstart / end;
+}
+.main{
+  grid-column: headerstart / widgetsstart;
+}
