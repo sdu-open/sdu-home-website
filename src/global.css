@@ -6,8 +6,12 @@
   --nav-item-text: #fff;
   --nav-item-bg: #351F72;
   --nav-item-bg-light: #482A9D;
+  --event-item-bg: #eeedfe;
   --main-bg: #F5F4FF;
   --text-green: #00AD45;
+  --button-price: #C5FBCE;
+  --button-free: #5A82CF;
+  --button-paid: #FBC5C5;
 }
 *,
 *::before,

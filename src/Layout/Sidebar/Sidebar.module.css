@@ -33,7 +33,7 @@
   width: 100%;
 }
 .navItem.active{
-  width: 120%;
+  width: 115%;
   background-color: var(--nav-item-bg-light);
   transition-delay: 0s;
 }
