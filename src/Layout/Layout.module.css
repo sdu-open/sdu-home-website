@@ -22,31 +22,25 @@
   display: flex;
 
 } */
+.header, .sidebar, .widgets{
+  position: fixed;
+}
 .header {
-  grid-area: header;
+  top: 0;
+  left: 430px;
+  right: 40px;
 }
 .sidebar {
-  grid-area: sidebar;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 430px;
 }
 .widgets {
-  grid-area: widgets;
-}
-.layout {
-  position: fixed;
-  top: 0;
   right: 0;
+  top: 200px;
   bottom: 0;
-  left: 0;
-  display: grid;
-  min-height: 100vh;
-  z-index: 2;
-  grid-template-columns: 430px 1fr 350px;
-  grid-template-rows: 133px 1fr;
-  gap: 0 20px;
-  grid-template-areas:
-    'sidebar header header'
-    'sidebar . widgets';
 }
-.main{
+.main {
   margin: 133px 350px 0 450px;
 }
